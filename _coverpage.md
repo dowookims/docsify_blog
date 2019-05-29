@@ -1,10 +1,10 @@
-# docsify <small>3.5</small>
+# Devlog <small>1.0</small>
 
-> A magical documentation site generator.
+> **FEDveloper**를 준비하고 있습니다.
 
-- Simple and lightweight (~21kB gzipped)
-- No statically built html files
+- React, Express, Django, Graphql
+- Currently study in **SSAFY**
 - Multiple themes
+* React, Django
 
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#docsify)
+[GitHub](https://github.com/dowookims)

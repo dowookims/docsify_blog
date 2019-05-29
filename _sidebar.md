@@ -1,3 +1,4 @@
+<hr />
 
 * [Home](/)
 * [Guide](guide.md)
