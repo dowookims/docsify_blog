@@ -6,3 +6,5 @@
 
 
 > 공부하면서 드는 생각도 정리합니다.
+
+!> **Time** is money, my friend!
