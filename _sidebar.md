@@ -7,3 +7,5 @@
 * [Graphql](/graphql/graphql.md)
 * * [Other](/graphql/other.md)
 * * [Apollo](/graphql/apollo.md)
+*  [TIL](TIL.md)
+*  [Profile](Profile.md)

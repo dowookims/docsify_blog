@@ -7,11 +7,15 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/themes/buble.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
+  <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 </head>
 <body>
   <div id="app"></div>
 
   <script>
+  var num = 0;
+  mermaid.initialize({ startOnLoad: false });
     window.$docsify = {
       el:'#app',
       coverpage: ['/', 'zh-cn'],
@@ -32,7 +36,19 @@
       },
       autoHeader: true,
       executeScript: true,
-      notFoundPage: 'my404.md'
+      notFoundPage: 'my404.md',
+       markdown: {
+        renderer: {
+          code: function(code, lang) {
+            if (lang === "mermaid") {
+              return (
+                '<div class="mermaid">' + mermaid.render('mermaid-svg-' + num++, code) + "</div>"
+              );
+            }
+            return this.origin.code.apply(this, arguments);
+          }
+        }
+      }
   };
 
   </script>
