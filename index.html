@@ -14,14 +14,16 @@
   <script>
     window.$docsify = {
       el:'#app',
-      coverpage: {'/':'_coverpage.md', '/zh-cn/':'_coverpage.md'},
-      maxLevel: 3,
+      coverpage: ['/', 'zh-cn'],
+      maxLevel: 4,
       loadNavbar: true,
       loadSidebar: true,
       subMaxLevel: 2,
-      repo: 'https://github.com/docsifyjs/docsify/',
+      repo: 'https://github.com/dowookims',
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
       auto2top: true,
       name: 'Deviary',
+      onlyCover: false,
       nameLink: {
         '/': '/'
       },
@@ -29,9 +31,10 @@
         '/.*/_sidebar.md': '/_sidebar.md'
       },
       autoHeader: true,
-      mergeNavbar: true,
-      
-  }
+      executeScript: true,
+      notFoundPage: 'my404.md'
+  };
+
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>

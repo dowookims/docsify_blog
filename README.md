@@ -7,6 +7,6 @@
 
 > 공부하면서 드는 생각도 정리합니다.
 
-!> **Time** is money, my friend!
+!> 업로드 하지 않아도 매일 조금씩 이런 저런 것들을 기웃기웃 거리고 있습니다.
 
-?> _TODO_ unit test
+?> _Mail_✉️ kaei2574@gmail.com
