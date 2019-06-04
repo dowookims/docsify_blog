@@ -21,6 +21,8 @@
 - [ ] React hook
 - [ ] React helmet
 - [ ] Redux
+- [ ] styled-components
+- [x] react-toastify
 
 ## NodeJs
 - [ ] package manager
