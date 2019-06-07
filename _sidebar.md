@@ -4,7 +4,9 @@
 * [CSS](/css/README.md)
 * * [Pre-processor](/css/pre-processor.md)
 * [React](/react/react.md)
-* * [React styling with JS library](/react/styling-with-js.md)
+* * <p style="font-size: 15px">styled-compontnts</p>
+* * [Introduce to styeld-components](/react/styledIntro.md)
+* * [Theming by styeld-components](/react/Theming.md)
 * * [React routing](/react/react-routing.md)
 * * [React Router Dom](/react/React-Router-dom.md)
 * * [Redux](/react/Redux.md)
@@ -12,6 +14,7 @@
 * * [react-toastify](/react/react-toastify.md)
 * [Node.js](/node/node.md)
 * * [express](/node/express.md)
+* * [bcryptjs](/node/bcryptjs.md)
 * * [Passport](/node/passport.md)
 * * [JWT](/node/jwt.md)
 * [Graphql](/graphql/graphql.md)

@@ -1,5 +1,7 @@
 ###### 2019-05-30
 
+styled-components에서 전역적으로 css를 세팅하고, 변수를 활용하는 방법에 대해 알아보겠습니다.
+
 styled-component와 styled-reset 으로 React 내부에서 CSS Styling을 합니다.
 
 ## 1. Making GlobalStyle 
@@ -94,8 +96,4 @@ export default () => (
 
 ```
 이렇게 기본적인 Theming 구성을 하고 리액트 컴포넌트에 스타일링을 할 때 `theme`을 추가해서 작업을 진행하게 됩니다.
-
-
-## toastify 
-Notification과 관련된 것
 
