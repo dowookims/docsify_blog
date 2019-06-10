@@ -8,9 +8,11 @@
 * * * [Introduce to styeld-components](/react/styledIntro.md)
 * * * [Theming by styeld-components](/react/Theming.md)
 
-* * [React routing](/react/react-routing.md)
+* * <p style="font-size: 15px">Redux</p>
+* * * [Redux](/react/Redux.md)
+* * * [ContextAPI](/react/Context.md)
+
 * * [React Router Dom](/react/React-Router-dom.md)
-* * [Redux](/react/Redux.md)
 * * [React Hook](/react/React-hook.md)
 * * [react-toastify](/react/react-toastify.md)
 * [Node.js](/node/node.md)
