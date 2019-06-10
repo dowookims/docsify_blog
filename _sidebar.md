@@ -1,12 +1,13 @@
-<hr />
+<hr styled=/>
 
 * [Home](README.md)
 * [CSS](/css/README.md)
 * * [Pre-processor](/css/pre-processor.md)
 * [React](/react/react.md)
 * * <p style="font-size: 15px">styled-compontnts</p>
-* * [Introduce to styeld-components](/react/styledIntro.md)
-* * [Theming by styeld-components](/react/Theming.md)
+* * * [Introduce to styeld-components](/react/styledIntro.md)
+* * * [Theming by styeld-components](/react/Theming.md)
+
 * * [React routing](/react/react-routing.md)
 * * [React Router Dom](/react/React-Router-dom.md)
 * * [Redux](/react/Redux.md)
