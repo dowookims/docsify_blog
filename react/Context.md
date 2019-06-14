@@ -13,4 +13,106 @@
 ```js
 const MyContext = React.createComtext(defaultValue);
 ```
-`Context` 객체를 생성합니다. React가 이 Context 객체를 구독하고 있는 컴포넌트를 렌더링 할 때, 이 Context는 현재 
+`Context` 객체를 생성합니다. React가 이 Context 객체를 구독하고 있는 컴포넌트를 렌더링 할 때, 트리에서 가장 가까운, 일치하는(Matching) Provider로부터 현재 Context value를 읽습니다.
+
+`defaultValue` 인자는 매치되는 Provider가 없을 때에만 사용됩니다.
+
+### 2) Context.Provider
+```js
+<MyContext.Provider value={/* some value */}>
+```
+`Provider`를 이용하여 사용되는 React Component들은 Context를 구독 또는 변경 할 수 있습니다.
+
+### 3) Context.Consumer
+```js
+<MyContext.Consumer>
+  {value => /* render something based on the context value */}
+</MyContext.Consumer>
+```
+`Consumer`는 `context` 변경을 구독하는 리액트 컴포넌트 입니다. `Consumer`를 통해 함수형 컴포넌트 안에서 `Context`를 구독 할 수 있게 합니다.
+
+이를 활용하면 다음과 같은 코드를 사용할 수 있습니다(벨로퍼트님 블로그에서 사용된 코드 입니다.)
+
+!> 아래 소스 코드는 velopert님 블로그(https://velopert.com/3606)에 기재된 코드임을 밝힙니다.
+```js
+// src/contexts/sample.js
+import React, { Component, createContext } from 'react';
+
+const Context = createContext();
+
+const { Provider, Consumer: SampleConsumer } = Context; 
+
+class SampleProvider extends Component {
+  state = {
+    value: '기본값입니다'
+  }
+  actions = {
+    setValue: (value) => {
+      this.setState({value});
+    }
+  }
+
+  render() {
+    const { state, actions } = this;
+    const value = { state, actions };
+    return (
+      <Provider value={value}>
+        {this.props.children}
+      </Provider>
+    )
+  }
+}
+
+export {
+  SampleProvider,
+  SampleConsumer,
+};
+```
+`src/app.js`
+```js
+import React from 'react';
+import LeftPane from './components/LeftPane';
+import RightPane from './components/RightPane';
+import { SampleProvider } from './contexts/sample';
+
+const App = () => {
+  return (
+    <SampleProvider>
+      <div className="panes">
+        <LeftPane />
+        <RightPane />
+      </div>
+    </SampleProvider>
+  );
+};
+
+export default App;
+```
+
+`src/componenets/Receives.js`
+```js
+import React from 'react';
+import { SampleConsumer } from '../contexts/sample';
+
+const Receives = () => {
+  return (
+    <SampleConsumer>
+      {
+        (sample) => (
+          <div>
+            현재 설정된 값: { sample.state.value }
+          </div>
+        )
+      }
+    </SampleConsumer>
+  );
+};
+
+export default Receives;
+```
+
+
+## 참고
+[velopert.log](https://velopert.com/3606)
+
+[Context - react](https://reactjs.org/docs/context.html#before-you-use-context)
