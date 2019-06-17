@@ -30,5 +30,6 @@
 * * <p style="font-size: 15px">Agile</p>
 * * * [1. 애자일기반의 소프트웨어 관리](/swengineering/agile.md)
 * * * [2. What Agile?](/swengineering/agile2.md)
+* * * [3. Agile 개발 방법론](/swengineering/agile3.md)
 *  [TIL](TIL.md)
 *  [Profile](Profile.md)
