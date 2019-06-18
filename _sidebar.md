@@ -1,7 +1,12 @@
 <hr styled=/>
 
 * [Home](README.md)
-  
+* [Profile](Profile.md)
+* [TIL](TIL.md)  
+* * [20190618](/TIL/20190618.md)
+
+<hr />
+
 * [CSS](/css/README.md)
 * * [Pre-processor](/css/pre-processor.md)
 * * [CSS방법론](/css/css-methodology.md)
@@ -48,7 +53,4 @@
 * * * [6. 실무적 측면에서 애자일 방법론 적용](/swengineering/agile6.md)
 * * * [7. Agile and DevOps](/swengineering/agile7.md)
 
-
-*  [TIL](TIL.md)
-*  [Profile](Profile.md)
 
