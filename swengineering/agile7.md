@@ -29,3 +29,5 @@ DevOps = Development + Operations
 ![cdd](_assets/CICD-resource.png)
 
 ![devops](_assets/devops.png)
+
+?> 애자일은 개발 방법론을 넘어선 일하는 방식의 패러다임이라고 보아야합니다.
