@@ -1,12 +1,10 @@
-# Devlog <small>1.0</small>
+<h1 style="color: #DEDEDE; font-weight: 700;">도우의 Deviary <small>1.0</small></h1>
 
-> **FEDeveloper**를 준비하고 있습니다.
+<p style="color: #DEDEDE;"> <Strong>FEDeveloper</Strong>를 준비하고 있습니다.</p>
 
-- React, Express, Django, Graphql
-- Currently study in **SSAFY**
-- Multiple themes
-* React, Django
+<p style="color: #DEDEDE;"> React, Vue, Express, Django, Graphql</p>
+<p style="color: #DEDEDE;"> Currently study in <b>SSAFY</b> </p>
 
 [GitHub](https://github.com/dowookims)
 
-![color](#181818)
+![color](#333333)

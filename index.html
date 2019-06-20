@@ -69,13 +69,13 @@ s0.parentNode.insertBefore(s1,s0);
       },
       autoHeader: true,
       executeScript: true,
-       pagination: {
+      pagination: {
         previousText: '이전 글',
         nextText: '다음 글',
         crossChapter: true
       },
       notFoundPage: 'my404.md',
-       markdown: {
+      markdown: {
         renderer: {
           code: function(code, lang) {
             if (lang === "mermaid") {

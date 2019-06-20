@@ -1,22 +1,22 @@
-# Tomorrow I will Learn
+Tomorrow I will Learn
 
-## HTML
+HTML
 - [ ] Semantic tag
 - [ ] data set
 - [ ] meta tag
 
-## CSS
+CSS
 - [ ] CSS 방법론
 - [ ] CSS transition & transform
 - [ ] CSS Animation
 - [ ] CSS 전처리기
 - [ ] CSS 후처리기
 
-## JS
+JS
 - [ ] Vanila JS
 - [ ] JS 익숙쓰
 
-## REACT
+REACT
 - [ ] React
 - [ ] React hook
 - [ ] React helmet
@@ -24,27 +24,27 @@
 - [ ] styled-components
 - [x] react-toastify
 
-## NodeJs
+NodeJs
 - [ ] package manager
 - [ ] passport & JWT
 - [ ] Crawler
 - [ ] Oauth
 
-## Django
+Django
 - [ ] JWT
 - [ ] Oauth
 
-## AWS
+AWS
 - [ ] Route53
 - [ ] EC2
 - [ ] S3
 - [ ] RDS
 - [ ] Reddis
 
-## NETWORK
+NETWORK
 
-## Database
+Database
 
-## Algorhythm
+Algorhythm
 
-## Datastructure
+Datastructure

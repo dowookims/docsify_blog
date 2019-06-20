@@ -2,7 +2,7 @@
 
 * [Home](README.md)
 * [Profile](Profile.md)
-* [TIL](TIL.md)  
+* [TIL](/TIL/TIL.md)  
 * * [20190618](/TIL/20190618.md)
 
 <hr />
@@ -52,5 +52,8 @@
 * * * [5. Scrum](/swengineering/agile5.md)
 * * * [6. 실무적 측면에서 애자일 방법론 적용](/swengineering/agile6.md)
 * * * [7. Agile and DevOps](/swengineering/agile7.md)
+* * <p style="font-size: 15px">클린코드</p>
+* * * [1. clean code](/swengineering/clean_code.md)
+* * * [2. secure coding](/swengineering/secure_coding.md)
 
 
