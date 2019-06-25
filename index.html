@@ -35,7 +35,6 @@ s0.parentNode.insertBefore(s1,s0);
 </head>
 <body>
   <div id="app"></div>
-
   <script>
   var num = 0;
   mermaid.initialize({ startOnLoad: false });
@@ -43,6 +42,12 @@ s0.parentNode.insertBefore(s1,s0);
       ga: 'UA-141691263-1',
       disqus: 'dowookim',
       el:'#app',
+      search: {
+        paths: 'auto',
+        placeholder: 'Type to search',
+        noData: 'No Results!',
+        hideOtherSidebarContent: true,
+      }, 
       coverpage: ['/', 'zh-cn'],
       maxLevel: 4,
       loadSidebar: true,
@@ -92,6 +97,7 @@ s0.parentNode.insertBefore(s1,s0);
 
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js" data-ga="UA-141691263-1"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
