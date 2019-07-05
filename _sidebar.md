@@ -11,7 +11,10 @@
 
 * [JS 🤪](/js/README.md)
 * * [WEBPACK](/js/webpack.md)
-  
+
+* [Functional JS 🙋️](/fj/README.md)
+* * [Intro To Functional JS 🙋️](/fj/fj1.md)
+
 <hr />
 
 * [React 😎](/react/react.md)
