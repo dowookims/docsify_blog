@@ -27,8 +27,7 @@
 * * * [Redux](/react/Redux.md)
 * * * [ContextAPI](/react/Context.md)
 * * <p style="font-size: 15px">React Router Dom</p>
-* * * [1. Basic Componenet](/react/React-Router-dom.md)
-* * * [2. API_BrowserHistory](/react/React-Router-Dom-BrowserHistory.md)
+* * * [Basic Componenet](/react/React-Router-dom.md)
 * * [React Hook](/react/React-hook.md)
 * * [react-toastify](/react/react-toastify.md)
   
