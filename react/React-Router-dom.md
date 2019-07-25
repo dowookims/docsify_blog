@@ -314,6 +314,9 @@ const About = ({ history, location, match }) => {
 }
 ```
 
+### 3) Match
+match는 Route 컴포넌트에서 설정한 path와 관련된 데이터들을 조회할 때 사용합니다. 현재 URL이 같을지라도 다른 라우트에서 사용된 match는 다른 정보를 알려주기 때문에 주로 url parameter를 조회하거나 sub route를 마늗ㄹ 때 현재 path를 참조하는데 사용됩니다.
+
 ### 4) withRouter
 Route를 통해 렌더링 되는 컴포넌트는 `props`로 `history`, `match`, `location`을 받지만 그렇지 않은 컴포넌트는 받지 못합니다. 이런 안타까운 친구들을 위해 react-router-dom은 `withRouter`를 만들었습니다. 사용방법은 아주 간단합니다.
 
