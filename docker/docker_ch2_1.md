@@ -6,7 +6,7 @@
 
 ### 컨테이너란 ?
 
-호스트 OS상 논리적인 구획 (컨테이너)을 만들고, 애플리케이션을 작동시키기 위해 필요한 라이브러리나 애플리케이션 등을 하나로 모아 별도의 서버인 것처럼 사용 할 수 있게 만든 것. 호스트 OS의 리소스를 논리적으로 분리시키고, 여러 개의 컨테이너가 공유하여 사용.
+호스트 OS상 논리적인 구획 (Container을 만들고, 애플리케이션을 작동시키기 위해 필요한 Library나 애플리케이션 등을 하나로 모아 별도의 서버인 것처럼 사용 할 수 있게 만든 것. 호스트 OS의 리소스를 논리적으로 분리시키고, 여러 개의 컨테이너가 공유하여 사용.
 
 컨테이너는 오버헤드가 적기 때문에 가볍고 고속으로 작동하는 것이 특징이다.
 
@@ -117,7 +117,7 @@ namespace는 한 덩어리의 데이터에 anming 하여 분할함으로 충돌 
 Linux 커널의 namespace기능은 Linux Object에 이름을 붙임으로 다음과 같은 6개의 독립된 환경을 구축할 수 있다.
 
 * PID namespace  : ProcessID Name space
-* Network namespace: Network Device, IP address, port number, Routing Table, Filtering table 등과 같은 Network resource를 격리도니 namespace마다 독립적으로 가질 수 있다.
+* Network namespace: Network Device, IP address, port number, Routing Table, Filtering table 등과 같은 Network resource를 격리된 namespace마다 독립적으로 가질 수 있다.
 * UID namespace : UserID namespace :  사용자 ID, 그룹 ID를 namespace별로 독립적으로 가지게 한다. namespace안과 호스트 OS 상 UID/GID가 서로 연결되어 namespace 안과 밖에 서로 다른 UID /GID를 가질 수 있다. 
 * MOUNT namespace: Linux에서 파일 시스템을 사용하기 위해 mount가 필요하다. mount는 컴퓨터에 연결된 기기나 기억장치를 OS에 인식시켜 이용 가능한 상태로 만드는 것. MOUNT namespace는 마운트 조작을 하면 namespace안에 격리된 파일 시스템 트리를 만든다. 다른 namespace 기능과 마찬가지로 namespace 안에서 수행한 마우느트는 호스트 OS나 다른 namespace에 접근하지 못하게 된다.
 * UTS namespace : namespace 별로 호스팅명이나 도메인명을 독자적으로 가질 수 있다.
