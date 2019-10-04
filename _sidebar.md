@@ -35,6 +35,7 @@
 
 * [Vue](/Vue/README.md)
 * * [Introduce to Vue](/Vue/intro.md)
+* * [LifeCycle](/Vue/LifeCycle.md)
 
 * [Node.js](/node/node.md)
 * * [express](/node/express.md)
